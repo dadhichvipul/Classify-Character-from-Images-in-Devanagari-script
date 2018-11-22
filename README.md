@@ -1,0 +1,2 @@
+# Classify-Character-from-Images-in-Devanagari-script
+This is a Character Recognition System which I developed for Devanagari  Script. The learning model was trained on 92 thousand images (32x32 pixels) of 46 characters, digits 0 to 9 and consonants “ka” to “gya”. The optimal result, 92% accuracy, was obtained using Extremely Randomized Decision Forest Classification algorithm.  What is Devanagari?

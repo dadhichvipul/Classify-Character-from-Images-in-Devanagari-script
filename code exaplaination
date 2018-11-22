@@ -1,0 +1,12 @@
+Python has a cool built-in function in the OS module that is called "os.walk()".
+OS.walk() generate the file names in a directory tree by walking the tree either top-down or bottom-up. For each directory
+in the tree rooted at directory top (including top itself), it yields a 3-tuple (dirpath, dirnames, filenames).
+This script will print out all directories, sub-directories and files from the path we specified (/test or /train)
+we are using "numpy" package for multiple functions present in it like .flatten(),np.hstack,.T(numpyarray transpose).
+np.ndarray.flatten() = Return a copy of the array collapsed into one dimension.
+np.hstack = Stack arrays in sequence horizontally (column wise).This function makes most sense for arrays with up to 3 dimensions.
+For instance, for pixel-data with a height (first axis),width (second axis), and r/g/b channels (third axis). The functions concatenate,
+stack and block provide more general stacking and concatenation operations.
+numpy.ndarray.T = gives transpose of the array.
+finally using pandas to write data in csv format. we are using .sample() function To randomly select rows from a pandas dataframe, and one last
+Nd important function called .to()which Write DataFrame to a comma-separated values (csv) file.

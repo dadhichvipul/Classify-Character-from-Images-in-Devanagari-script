@@ -1,0 +1,25 @@
+CNN OR Convolutional neural networks, A typical use case for CNNs is where you feed the network images and it classifies the data 
+CNNs tend to start with an input “scanner,” which is not intended to parse all of the training data at once. For example, to input
+an image of 100 x 100 pixels, you wouldn’t want a layer with 10,000 nodes. Rather, you create a scanning input layer of say, 10 x 10,
+and you feed the first 10 x 10 pixels of the image. Once you’ve passed that input, you feed it the next 10 x 10 pixels by
+moving the scanner one pixel to the right.
+Now we are taking random weight of links between (input and hidden) layer and (hidden and output) layer let's say -0.5 to +0.5. 
+we are using keras, pickle , Python pickle module is used for serializing and de-serializing a Python object structure. Any object in 
+Python can be pickled so that it can be saved on disk. What pickle does is that it “serializes” the object first before writing it to
+file. Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream
+contains all the information necessary to reconstruct the object in another python script.
+we arfe using "maxpooling"(Max pooling is a sample-based discretization process. The objective is to down-sample an input
+representation (image, hidden-layer output matrix, etc.), reducing its dimensionality and allowing for assumptions to be made about features
+contained in the sub-regions binned.
+we are using convolution2d, activation(), dense(), flattern(), dropout(), etc this all functions or process are in keras document. 
+Dropout() consists in randomly setting a fraction rate of input units to 0 at each update during training time, which helps prevent
+overfitting.
+we are using activation function, or many of the people used theneo or tenserflow operation but my system was not compatible for tenserflow as itwas 32 bit,
+so I used thiis function
+Softmax is an activation function. Other activation functions include RELU and Sigmoid. It is frequently used in classifications.
+Softmax output is large if the score (input called logit) is large. Its output is small if the score is small. The proportion is not
+uniform. Softmax is exponential, can enlarge differences - push one result closer to 1 while another closer to 0. It turns scores aka 
+logits into probabilities. Cross entropy (cost function) is often computed for output of softmax and true labels.
+wea re using relu i.e rectified linear unit, ReLU is half rectified (from bottom). f(z) is zero when z is less than zero and f(z) is equal
+to z when z is above or equal to zero.
+finally we have to calcualte accuracy.
